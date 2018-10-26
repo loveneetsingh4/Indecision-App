@@ -1,0 +1,25 @@
+.widget {
+   background:$light-blue;
+   margin: $xl-size
+
+}
+.widget__header{
+    border-bottom: 1px solid darken($light-blue,10%) ;
+  color: beige;
+  margin: 0;
+  padding: $xl-size;
+  text-align:center;    
+}
+.widget--header{
+   background:black;
+   color:white;
+   display: flex;
+   justify-content: space-between;
+    padding: $s-size;
+
+
+}
+.widget--h{
+  margin: 0;
+
+}
