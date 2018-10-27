@@ -1,9 +1,10 @@
+
 import React from "react";
 import ReactDOM from "react-dom";
-import IndecsionApp from "./component/indecision";
-import  "normalize.css/normalize.css"
+import Approute from "./router/AppRoutes";
+import  "normalize.css/normalize.css";
 import "./style/style.scss";
 
 
-ReactDOM.render(<IndecsionApp options={[]} />,document.getElementById("app"));
+ReactDOM.render(<Approute />,document.getElementById("app"));
 
